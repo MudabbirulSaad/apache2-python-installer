@@ -23,7 +23,7 @@ output4 = phpprop.read(print("\nAddding php properties!\n"))
 updater2 = ps.popen('sudo apt-get update')
 output5 = updater2.read(print("\nUpdating repositories list again!\n"))
 phpinst = ps.popen('sudo apt -y install php7.4')
-output6 = phpinst.read(print("\nInstalling php repository?"))
+output6 = phpinst.read(print("\nInstalling php repository!"))
 print("\nphp successfully installed!\n")
 
 phpext = ps.popen('sudo apt-get install php7.4-mysql php7.4-bcmath php7.4-bz2 php7.4-intl php7.4-gd php7.4-mbstring php7.4-zip php7.4-apcu php7.4-uploadprogress php7.4-imagick php7.4-mcrypt php7.4-gettext')
